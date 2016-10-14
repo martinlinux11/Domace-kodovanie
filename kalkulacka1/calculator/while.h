@@ -1,9 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "kalkulacka.h"
-
-int main()
-{
+#ifndef WHILE_H_INCLUDED
+#define WHILE_H_INCLUDED
+void loop(){
     int d = 1;
     while (d == 1){
         calculate();
@@ -14,3 +11,5 @@ int main()
     printf("*****************************************\n");
     printf("_______________DOVIDENIA_________________\n");
 }
+
+#endif // WHILE_H_INCLUDED
