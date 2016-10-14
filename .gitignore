@@ -3,4 +3,5 @@
 bin
 *.depend
 kalkulacka1/kalkulacka
+*.layout
 
